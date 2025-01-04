@@ -14,8 +14,12 @@ Collectively, slots create a logical clock. Slots are ordered sequentially and n
 ### block_time
 Estimated production time of a block as Unix timestamp (seconds since the Unix epoch).
 ### signer
+First signer (fee payer) in the signers array.
 ### signature
+A 64-byte ed25519 signature. 
+Each transaction must have at least one signature for fee account. The first signature in transaction can be treated as transaction id and is used for this field.
 ### error (boolean)
+Value indicating if the swap failed or succeeded.
 ### dex
 TODO see parsed dexes
 ### swap_type

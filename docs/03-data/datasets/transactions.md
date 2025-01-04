@@ -22,8 +22,8 @@ A 64-byte ed25519 signature.
 Each transaction must have at least one signature for fee account. The first signature in transaction can be treated as transaction id and is used for this field.
 ### signer
 First signer (fee payer) in the signers array.
-### error 
-**Boolean** value indicating if the transaction failed or succeeded.
+### error (boolean)
+Value indicating if the transaction failed or succeeded.
 ### top_level_ix_count
 The total number of top-level instructions.
 ### compute_units

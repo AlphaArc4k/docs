@@ -51,7 +51,7 @@ AlphaArc takes a pragmatic approach, balancing:
 
 ### Joins
 :::warning
-Custom joins are strongly discouraged. If your application reuires a specific set of information request a view or datset instead.
+Custom joins are strongly discouraged. If your application requires a specific set of information, request a view or datset instead.
 :::
 Joins are discouraged but possible.
 While most tasks can be completed using the standalone datasets, certain specialized cases might necessitate joins. 
@@ -67,11 +67,11 @@ Below is an example breakdown of dataset sizes for different types and time inte
 
 | **Dataset Type**   | **Interval**   | **Example Size**  | **Description**                                                                 |
 |---------------------|----------------|-------------------|---------------------------------------------------------------------------------|
-| **Blocks**          | 60 minutes    | 100 KB            | Includes details of all blocks produced within the interval.                   |
-| **Transactions**    | 60 minutes    | 1.4 GB            | Contains all transaction data, including signatures and involved accounts.     |
-| **Swaps**           | 60 minutes    | 100 MB             | Specific to token swaps across decentralized exchanges.                        |
+| **Blocks**          | 60 minutes    | 100 KB            | Includes details of all blocks produced within the interval                   |
+| **Transactions**    | 60 minutes    | 1.4 GB            | Contains all transaction data, including signatures and involved accounts     |
+| **Swaps**           | 60 minutes    | 100 MB             | Specific to token swaps across decentralized exchanges                        |
 | **Fees**            | 60 minutes    | 150 MB             | Priority fees and compute units                               |
-| **Programs**        | 60 minutes    | 250 MB            | Captures activity for deployed programs, including invocation counts.          |
+| **Programs**        | 60 minutes    | 250 MB            | Captures activity for deployed programs, including invocation counts          |
 | **Tokens**          | 60 minutes    | 500 KB            | Token miniting  |
 | **Sol transfers**          | 60 minutes    | 180 MB            | Sol transfers  |
 | **Token transfers**          | 60 minutes    | 15 MB            | Token transfers  |
