@@ -13,7 +13,7 @@ The **Data Source Configuration** section allows users to define and customize t
 #### **Features**
 
 1. **Dataset Selection**:
-   - Users can choose from available [datasets](../03-data/categorydatasets), such as:
+   - Users can choose from available [datasets](../03-data/category/datasets), such as:
      - **Swaps**
      - **Tokens A1**
      - **Token Transfers**
