@@ -7,7 +7,7 @@ sidebar_position: 3
 Contains all transaction data, including signatures and involved accounts.
 
 :::danger
-Big data warning. See [Overview](./) for infrastructure planning.
+Big data warning. See [Overview](./overview) for infrastructure planning.
 :::
 
 ## Fields
