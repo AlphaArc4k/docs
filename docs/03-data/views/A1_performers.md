@@ -1,5 +1,8 @@
 # A1 Performers
 
+## Identifier
+`a1_performers_[time interval]`
+
 ## Description
 The A1 Performers (work in progress) view combines Token Metrics with the [Alpha-1 (A1) Score](../scores/a1_score.md), providing a comprehensive tool to analyze and rank tokens based on price changes and key performance indicators. This view is designed to enable efficient filtering and ordering of tokens, helping users identify those with significant **authentic activity**, market impact, or emerging trends.
 
