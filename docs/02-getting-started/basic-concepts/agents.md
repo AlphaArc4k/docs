@@ -15,8 +15,6 @@ Agents operate conceptually as graphs, where:
 - **Edges** represent the flow of data or control between nodes, determining the sequence of operations.
 - **State** each graph execution creates a state that is passed between nodes in the graph as they execute, and each node updates this internal state with its return value after it executes.
 
-[TODO] Detailed AlphaArc agent lifecycle
-
 
 ### Inference
 At the core of an agent’s functionality is inference, driven by Large Language Models (LLMs):

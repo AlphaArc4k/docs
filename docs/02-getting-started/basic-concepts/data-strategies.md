@@ -38,6 +38,3 @@ For tasks requiring a holistic view, agents perform iterative passes:
 First Pass: Extract high-level summaries or trends from each data chunk.
 Intermediate step: enrich data with e.g. token metadata.
 Second Pass: Combine these summaries into a cohesive analysis for the final output.
-
-### Hybrid
-TODO

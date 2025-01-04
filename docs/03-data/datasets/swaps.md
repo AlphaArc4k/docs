@@ -21,7 +21,7 @@ Each transaction must have at least one signature for fee account. The first sig
 ### error (boolean)
 Value indicating if the swap failed or succeeded.
 ### dex
-TODO see parsed dexes
+see parsed dexes
 ### swap_type
 `Buy | Sell | Token`
 - **Buy:** SOL for token swap.
