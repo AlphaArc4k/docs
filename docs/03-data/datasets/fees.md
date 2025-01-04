@@ -19,7 +19,7 @@ Each transaction must have at least one signature for fee account. The first sig
 ### compute_unit_limit
 Each transaction has a maximum number of compute units (CU) it can consume called the "compute unit limit".
 A transaction can request a more specific and optimal compute unit limit by including a single SetComputeUnitLimit instruction. 
-Either a higher or lower limit which is captured bz this field.
+Either a higher or lower limit which is captured by this field.
 ### priority_fee
 As part of the Compute Budget, the runtime supports transactions paying an optional fee known as a "prioritization fee". Paying this additional fee helps boost how a transaction is prioritized against others when processing, resulting in faster execution times.
 A transaction's prioritization fee is calculated by multiplying its compute unit limit by the compute unit price.
