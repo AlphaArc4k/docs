@@ -80,6 +80,12 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
+        {
+          to: '/docs/guides/intro',
+          sidebarId: 'guideSidebar',
+          position: 'left',
+          label: 'Guides',
+        },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/AlphaArc4k',
@@ -96,7 +102,7 @@ const config: Config = {
           items: [
             {
               label: 'Docs',
-              to: '/docs/intro/intro',
+              to: '/docs/general/intro/intro',
             },
           ],
         },
