@@ -8,7 +8,7 @@ We'll use CateCafe as an example.
 
 ---
 
-## **The Big Picture: How Agents Work**
+## **The Big Picture:** How Agents Work
 
 If you're familiar with programming, think of an agent as an **object**. 
 This object defines everything about the agent: what it knows, what it does, and how it communicates.
@@ -242,7 +242,7 @@ AlphaArc can inject schema definitions automatically but it is always a good ide
  Especially when it comes to custom queries.
 :::
 
-### Inetgrated Query Tester
+### Integrated Query Tester
 Use the integrated query tool to test data based on the defined settings.
 
 ![data preview](../general/05-alpha-studio/img/data_preview.jpg)
@@ -277,7 +277,7 @@ By injecting up-to-date statistics, benchmarks, and metrics, AlphaArc ensures ag
 
 ---
 
-#### **What Knowledge Includes**
+### **What Knowledge Includes**
 
 1. **Market Profiles**:
    - Pre-defined statistics about common liquidity profiles, helping agents assess token health and trading activity.
