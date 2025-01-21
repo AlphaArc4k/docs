@@ -13,14 +13,20 @@ The **Data Source Configuration** section allows users to define and customize t
 #### **Features**
 
 1. **Dataset Selection**:
-   - Users can choose from available [datasets](/docs/category/datasets), such as:
-     - **Swaps**
-     - **Tokens A1**
-     - **Token Transfers**
-     - **OHLCV**
-     - **SOL Transfers**
-     - **... and more**
-   - Multiple datasets can be selected simultaneously, giving agents access to diverse data sources.
+Users can choose from available [datasets](/docs/category/datasets), such as:
+
+
+   |  Dataset |  Example query |
+   |---|---|
+   | **Swaps** |  Select * from swaps |
+   | **Tokens A1 60 minutes** | Select * from a1_performers_60m |
+   | **Token Transfers**  |  Select * sol_transfers |
+   | **OHLCV** | Select * from ohlcv_60m  |
+   | **SOL Transfers** | Select * token_transfers  |
+
+   **... and more**
+   
+   Multiple datasets can be selected simultaneously, giving agents access to diverse data sources.
 
 2. **Time Range Settings**:
    - **Fixed Range**:

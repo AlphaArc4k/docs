@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # AlphaArc
 
+#### https://www.alphaarc.xyz/
+
 ## 1.1 What Is AlphaArc?
 AlphaArc is an innovative platform that bridges the gap between Solana's Web3 data and artificial intelligence. By transforming complex blockchain data into formats that large language models (LLMs) can not only read, but truly understand. It enables the creation of AI agents capable of deep analysis and insightful pattern recognition within the Solana ecosystem. Unlike traditional solutions that rely on Web2 data, AlphaArc unlocks the untapped potential of Web3, providing a foundation for advanced AI applications in decentralized finance (DeFi), non-fungible tokens (NFTs), and more.
 
